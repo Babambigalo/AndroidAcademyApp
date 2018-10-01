@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="heightImageInLandLayout">450dp</dimen>
+    <dimen name="allTextSize">16sp</dimen>
+    <dimen name="width_header_icons">20dp</dimen>
+    <dimen name="height_header_icons">28dp</dimen>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/heightImageInLandLayout"
+            android:contentDescription="@string/main_photo"
+            android:scaleType="fitXY"
+            android:src="@drawable/sexyman" />
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="@dimen/width_header_icons"
+                    android:layout_height="@dimen/height_header_icons"
+                    android:src="@drawable/fire"
+                    android:contentDescription="@string/sexy_man"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="50dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/allTextSize"
+                    android:text="@string/heading_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="@dimen/width_header_icons"
+                    android:layout_height="@dimen/height_header_icons"
+                    android:src="@drawable/fire"
+                    android:contentDescription="@string/sexy_man"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="50dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/head_of_hell"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="@dimen/width_header_icons"
+                    android:layout_height="@dimen/height_header_icons"
+                    android:src="@drawable/fire"
+                    android:contentDescription="@string/sexy_man"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="50dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/head_of_hell"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:layout_marginStart="50dp"
+                android:paddingBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/description"
+                tools:ignore="RtlSymmetry" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_a_message"
+                android:paddingTop="16dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="8dp"
+                android:inputType="text"
+                tools:ignore="Autofill" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_message"
+                android:id="@+id/send_message"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorRed"
+
+                android:layout_gravity="end"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/telegram_icon"
+                    android:layout_margin="8dp"
+                    android:id="@+id/telegram"
+                    android:contentDescription="@string/telegram_icon" />
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/instagram_icon"
+                    android:layout_margin="8dp"
+                    android:id="@+id/instagram"
+                    android:contentDescription="@string/instagram_icon" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/vk_icon"
+                    android:id="@+id/vk"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/vk_icon" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

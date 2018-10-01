@@ -1,0 +1,11 @@
+*.iml
+/app/src/androidTest
+/app/src/test
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
