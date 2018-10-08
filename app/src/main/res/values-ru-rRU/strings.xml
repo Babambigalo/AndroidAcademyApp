@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Твой искуситель</string>
     <string name="main_photo">Моё фото</string>
     <string name="labelCompany1">Название компании</string>
-    <string name="label2">Картинка</string>
-    <string name="label3">Название</string>
     <string name="enter_a_message">Введите сообщение...</string>
     <string name="send_message">Отправить сообщение</string>
-    <string name="head_of_hell">"ля ля ля "</string>
-    <string name="heading_1">Я сделаю тебя счастливой</string>
-    <string name="description">О себе</string>
+    <string name="description">Никита начал разрабатывать под Android в этом году. Создал несколько Android приложений в рамках обучения. В данный момент работает над созданием NYTimes приложения.</string>
     <string name="email_app_not_found">Email приложение не найдено</string>
+    <string name="heading_1">Начинающий Android разработчик</string>
+    <string name="menu_action_switch">О приложении</string>
+    <string name="title_category">Категория</string>
+    <string name="contentDescription_item_ImageView">"Фото статьи "</string>
 </resources>

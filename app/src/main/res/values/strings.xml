@@ -1,17 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Your Tempter</string>
+    <string name="app_name" translatable="false">NYTimes</string>
     <string name="main_photo">my photo</string>
     <string name="labelCompany1">label company</string>
-    <string name="label2">just image</string>
-    <string name="label3">just label</string>
     <string name="enter_a_message">Enter a message…</string>
     <string name="send_message">SEND MESSAGE</string>
     <string name="telegram_icon" translatable="false">telegramm icon</string>
     <string name="instagram_icon" translatable="false">instagram icon</string>
     <string name="vk_icon" translatable="false">vk icon</string>
-    <string name="head_of_hell" tools:ignore="Typos">la la la la</string>
-    <string name="sexy_man" translatable="false">sexy man</string>
-    <string name="heading_1">I will make you happy</string>
-    <string name="description">About me</string>
+    <string name="heading_1">Beginner android developer</string>
+    <string name="description">Nikita has been doing Android development this year. He created several Android application in study process. At the moment, he is unemployed. At the moment, Nikita works on create NYTimes application.</string>
     <string name="email_app_not_found">email app not found</string>
+    <string name="menu_action_switch">About</string>
+    <string name="contentDescription_item_ImageView">photo of article</string>
+    <string name="is_clicked" translatable="false">is clicked</string>
+    <string name="title_category">Category</string>
+    <string name="image_of_header_1">image of header 1</string>
 </resources>

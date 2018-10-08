@@ -4,4 +4,16 @@
     <dimen name="allTextSize">16sp</dimen>
     <dimen name="width_header_icons">20dp</dimen>
     <dimen name="height_header_icons">28dp</dimen>
+    <dimen name="width_of_item_TextViews">230dp</dimen>
+    <dimen name="width_of_item_imageView">100dp</dimen>
+    <dimen name="height_of_item_ImageView">100dp</dimen>
+    <dimen name="textSize_item_category">15sp</dimen>
+    <dimen name="textSize_item_title">15sp</dimen>
+    <dimen name="textSize_item_previewText">12sp</dimen>
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="height_CardView">150dp</dimen>
+    <dimen name="data_textSize">10sp</dimen>
+    <dimen name="padding_text_of_details">8dp</dimen>
+    <dimen name="title_sizeText_of_details">22sp</dimen>
 </resources>
