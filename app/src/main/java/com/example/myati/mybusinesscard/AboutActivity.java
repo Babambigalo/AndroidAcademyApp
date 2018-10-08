@@ -12,8 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-
-public class MainActivity extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
     TextView sendMessage;
     EditText editText;
     String textFromEditText;
@@ -22,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView vk;
 
     private static final String[] EMAIL_ADDRESS = {"myatiy963@gmail.com"};
-    private static final String EMAIL_SUBJECT = "Здравствуй,соблазнитель";
+    private static final String EMAIL_SUBJECT = "Здравствуй,Никита";
+    private  static final String titleAboutActivity = "Nikita Matveev";
     public final String urlVk = "https://vk.com/vol.vesovoy";
     public final String urlTelegram = "https://t.me/babambigalo";
     public final String urlInstagram = "https://www.instagram.com/babambigalo/?hl=ru";
@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(titleAboutActivity);
+
         sendMessage = findViewById(R.id.send_message);
         instagram = findViewById(R.id.instagram);
         editText = findViewById(R.id.edit_text);
